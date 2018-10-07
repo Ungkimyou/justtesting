@@ -5,7 +5,7 @@ module.exports.run = async(bot, message, args) =>{
   .setTitle("Restart")
   .setDescription("Sorry, the `restart` command can only be executed by the Developer.")
   .setColor("#cdf785");
-  if(message.author.id !== '352298852931600385') return message.channel.send(embed);
+  if(message.author.id !== '424916247696900135') return message.channel.send(embed);
   
 message.channel.send(`Restarted in ${Math.floor(bot.ping)}ms`).then(() =>{
 process.exit(1);
