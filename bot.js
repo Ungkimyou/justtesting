@@ -7,7 +7,7 @@ const ytdl = require('ytdl-core'); //DO NOT MODIFY
 const ffmpeg = require('ffmpeg'); //DO NOT MODIFY 
 const youtube = new YouTube('AIzaSyAPEceNnYOsJcVPw-nSuiibzHaLg8P9zwo'); //DO NOT MODIFY 
 const queue = new Map(); //DO NOT MODIFY 
-
+const ownerID = '424916247696900135'
 
 
 app.get("/", (request, response) => {
