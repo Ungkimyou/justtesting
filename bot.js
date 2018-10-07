@@ -469,4 +469,4 @@ ${serverQueue.songs.map(song => `**-** ${song.title}`).join('\n')}
 
 
 // WAll-e Login:
-	bot.login(process.env.SECRET);
+	bot.login(process.env.TOKEN_BOT);
