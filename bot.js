@@ -40,11 +40,11 @@ bot.on('ready', () => {
 // Bot Status
 function botStatus() {
   let status = [
-    `my default prefix ${botconfig.prefix}`,
-    `in ${bot.guilds.size} guilds.`,
-    `with A Coder's Hangout team.`,
-    `waiting for EVA.`,
-    `with ${bot.guilds.reduce((a, b) => a + b.memberCount, 0).toLocaleString()} users.`
+    `Mmy default prefix ${botconfig.prefix}`,
+    `Min ${bot.guilds.size} guilds.`,
+    `Mwith A Coder's Hangout team.`,
+    `Mwaiting for EVA.`,
+    `Mwith ${bot.guilds.reduce((a, b) => a + b.memberCount, 0).toLocaleString()} users.`
   ];
   let rstatus = Math.floor(Math.random() * status.length);
   bot.user.setActivity(status[rstatus], {Type: 'STREAMING'});        
